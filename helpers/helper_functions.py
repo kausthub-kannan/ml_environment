@@ -41,7 +41,7 @@ def confusion_matrix_plot(y_true, y_pred, size=16):
 
 
 def supervised_metrics(y_true, y_pred):
-    """Meterics for a Supervised Learning model
+    """Meterics for a Supervised Learning model:
     TP -> True postivies
     TN -> True negatives
     FP -> False postivies

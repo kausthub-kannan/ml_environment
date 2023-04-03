@@ -1,9 +1,10 @@
-# OneRepo for all ML engineers
+# OneRepo for ML Tools
 Setup your Machine Learning Environment in seconds
 
 ## Scrapping
 Machine Learning and Neural Networks require dataset. Best way to gett data is by web scarpping.
-> ***Warning*** Before scrapping any website, please be sure that it belongs to the public domain or you have been given the permission to do so
+> ***Warning***  
+Before scrapping any website, please be sure that it belongs to the public domain or you have been given the permission to do so
 
 ### Image Scrapping
 The `image_scrapper.py` can be used to scrap Google images. Uisng this script mutiple scarpping can be performed.  
@@ -19,7 +20,7 @@ After installing the required libraries, run the following command in your termi
 python3 image_scrapper.py
 ```   
 
-> **Note**
+> **Note**    
 > The path of the terminal has to be in the folder containing the python file.
 
 Now, the terminal would ask for 3 variables: `Chrome Driver Path` , `Target Folder Path` , `Number of Images to be Scrapped per query`  
@@ -36,5 +37,5 @@ Enter the seach query to be scarpped | Enter 'exit' to start scrapping the query
 Once the list of image queries or names to be scrapped are entred the scrapping starts.   
 The cat and dogs images will be stored in two different folders within the target folder. `exit` indicated the end of the list.  
 
-> **Note**
+> **Note**  
 > To have better results, entering proper queries would be required. For example, entering `cats image` would give me all type of cats but `orange cats images` would give me mostly orange cat images.

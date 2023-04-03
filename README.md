@@ -7,7 +7,7 @@ Machine Learning and Neural Networks require dataset. Best way to gett data is b
 Before scrapping any website, please be sure that it belongs to the public domain or you have been given the permission to do so
 
 ### Image Scrapping
-The `image_scrapper.py` can be used to scrap Google images. Uisng this script mutiple scarpping can be performed.  
+The `image_scrapper.py` can be used to scrap Google images. Using this script mutiple scarpping can be performed.  
 Few python libraries have to be installed. PIP can be used for the installation.
 
 ```bash
@@ -30,9 +30,9 @@ Once the single initalization variables are given, list of query parameters has 
 For example, I want to scrap images of cats and dogs then this is how I would do it:
 
 ```
-Enter the seach query to be scarpped | Enter 'exit' to start scrapping the query list : cats images
-Enter the seach query to be scarpped | Enter 'exit' to start scrapping the query list : dogs images 
-Enter the seach query to be scarpped | Enter 'exit' to start scrapping the query list : exit
+Enter the search query to be scarpped | Enter 'exit' to start scrapping the query list : cats images
+Enter the search query to be scarpped | Enter 'exit' to start scrapping the query list : dogs images 
+Enter the search query to be scarpped | Enter 'exit' to start scrapping the query list : exit
 ```
 Once the list of image queries or names to be scrapped are entred the scrapping starts.   
 The cat and dogs images will be stored in two different folders within the target folder. `exit` indicated the end of the list.  

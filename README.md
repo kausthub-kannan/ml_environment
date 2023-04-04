@@ -1,5 +1,10 @@
 # OneRepo for ML Tools
-Setup your Machine Learning Environment in seconds
+Setup your Machine Learning Environment in seconds. The repository is one spot for ML tools
+
+## Helper Functions
+The `helper_functions.py` consists functions for image processing, unsupervised learning and supervised learning. The functions will be updated regularly.   
+> ***Note***  
+> The functions support TensorFlow library only. Pytorch frameworks will be added soon
 
 ## Scrapping
 Machine Learning and Neural Networks require dataset. Best way to gett data is by web scarpping.

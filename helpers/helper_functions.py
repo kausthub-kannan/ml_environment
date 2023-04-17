@@ -42,10 +42,10 @@ def confusion_matrix_plot(y_true, y_pred, size=16):
 
 def supervised_metrics(y_true, y_pred):
     """Meterics for a Supervised Learning model:"""
-    print("Accuracy : {} %".format(accuracy_score(y_true, y_pred)*100))
-    print("F1 Score : {}".format(f1_score(y_true, y_pred, average='weighted')))
-    print("Recall : {}".format(recall_score(y_true, y_pred, average='weighted')))
-    print("Precision : {}".format(precision_score(y_true, y_pred, average='weighted')))
+    print("Accuracy : {} %".format(metrics.accuracy_score(y_true, y_pred)*100))
+    print("F1 Score : {}".format(metrics.f1_score(y_true, y_pred, average='weighted')))
+    print("Recall : {}".format(metrics.recall_score(y_true, y_pred, average='weighted')))
+    print("Precision : {}".format(metrics.precision_score(y_true, y_pred, average='weighted')))
 
 #Model Helper Functions
 import datetime

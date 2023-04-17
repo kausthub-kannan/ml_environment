@@ -65,7 +65,7 @@ def create_tensorboard_callback(dir_name, experiment_name):
   print(f"Saving TensorBoard log files to: {log_dir}")
   return tensorboard_callback
 
-def supervised_metrics(y_pred, y_true=None, x=None):
+def unsupervised_metrics(y_pred, y_true=None, x=None):
   """Meterics for a Unsupervised Learning model"""
   if(x):
     print("...........Score with respect to X............")

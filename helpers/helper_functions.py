@@ -33,11 +33,19 @@ def loss_curve_plot(df):
 import seaborn as sns
 from sklearn import metrics
 
-
-def confusion_matrix_plot(y_true, y_pred, size=16):
+def confusion_matrix_plot(y_true, y_pred, classes, figsize=(8,8)):
     """"Confusion Matrix for true values and predicted values"""
     cm = metrics.confusion_matrix(y_true, y_pred)
-    sns.heatmap(cm, annot=True, cmap="Blues", annot_kws={"size": size})
+    cm = cm.astype('float') / cm.sum(axis=1)
+    plt.figure(figsize = figsize)
+
+    ax=sns.heatmap(cm, annot=True, cmap="crest")
+
+    ax.set_xlabel("Predictions", labelpad=20)
+    ax.xaxis.set_ticklabels(classes)
+
+    ax.set_ylabel("True Values", labelpad=20)
+    ax.yaxis.set_ticklabels(classes)
 
 
 def supervised_metrics(y_true, y_pred):

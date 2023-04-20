@@ -1,6 +1,9 @@
 # OneRepo for ML Tools
 Setup your Machine Learning Environment in seconds. The repository is one spot for ML tools
 
+## OpenCV (BETA)
+Juypter Notebooks to learn OpenCV in a faster pace
+
 ## Helper Functions
 The `helper_functions.py` consists functions for image processing, unsupervised learning and supervised learning. The functions will be updated regularly.   
 > ***Note***  
